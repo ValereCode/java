@@ -6,11 +6,13 @@
             <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/CommandeAide.java</file>
             <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/CommandeLs.java</file>
             <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/Commande.java</file>
-            <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/CommandeHelp.java</file>
-            <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/gestion/fichiers/GestionFichiers.java</file>
+            <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/metier/FichierSimple.java</file>
+            <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/metier/Repertoire.java</file>
             <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/CommandeCd.java</file>
             <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/Navigateur.java</file>
+            <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/metier/Fichier.java</file>
             <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/PasseurDeCommande.java</file>
+            <file>file:/home/setodji/Documents/NetBeansProjects/gestion-fichiers/src/cli/CommandeMkdir.java</file>
         </group>
     </open-files>
 </project-private>

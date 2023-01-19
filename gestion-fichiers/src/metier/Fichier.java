@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author setodji
  */
-abstract class Fichier {
+public abstract class Fichier {
 
     protected String nom;
     protected Date date;
@@ -56,6 +56,10 @@ abstract class Fichier {
     }
 
     protected abstract double getTaille();
+
+    public Repertoire getRepertoire() {
+        return repertoire;
+    }
 
     public String getUrl() { 
         if (this.repertoire == null) {

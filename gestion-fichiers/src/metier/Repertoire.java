@@ -15,6 +15,10 @@ import java.util.List;
 public class Repertoire extends Fichier {
 
     private double taille = 0;
+
+    public List<Fichier> getFichiers() {
+        return fichiers;
+    }
     private List<Fichier> fichiers = new ArrayList<Fichier>();
 
     //==========================================================================

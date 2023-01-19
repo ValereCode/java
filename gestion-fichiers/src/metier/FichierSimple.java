@@ -4,6 +4,9 @@
  */
 package metier;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Date;
 
 /**
@@ -48,4 +51,15 @@ public class FichierSimple extends Fichier {
     public String toString() {
         return "- " + this.nom;
     }
+    
+    String contenu;
+    public String lireFichier(String cheminFichier) {
+        try {
+            contenu = new String(Files.readAllBytes(Paths.get(cheminFichier)));
+            return contenu;
+        } catch (IOException e) {
+            System.out.println("Erreur lors de la lecture du fichier : " + e.getMessage());
+        }
+    }
+    
 }

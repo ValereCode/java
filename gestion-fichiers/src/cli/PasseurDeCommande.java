@@ -21,6 +21,14 @@ public class PasseurDeCommande {
                 new CommandeLs(argument);
             case "cd" ->
                 new CommandeCd(argument);
+            case "mkdir" ->
+                new CommandeMkdir(argument);
+            case "touch" ->
+                new CommandeTouch(argument);
+            case "rm" ->
+                new CommandeRm(argument);
+            case "cat" ->
+                new CommandeCat(argument);
             case "help" ->
                 new CommandeHelp(argument);
             default ->

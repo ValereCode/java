@@ -18,8 +18,11 @@ public class CommandeCd extends Commande{
     
     @Override
     public void executer(Navigateur nav) {
-        if(arguments.length == 0 || arguments[0].equals("..")) {
+        if(arguments.length == 0) {
             nav.setRepCourant(Repertoire.getRoot());
+            return;
+        } else if(arguments[0].equals("..")){
+            nav.setRepCourant(nav.getRepCourant().getRepertoire());
             return;
         }
         else if (arguments.length != 1) {
@@ -28,7 +31,7 @@ public class CommandeCd extends Commande{
         }
         Repertoire cible = nav.getRepCourant().getSousRepertoire(arguments[0]);
         if (cible == null) {
-            System.out.println("Le répertoire cible n'existe pas");
+            System.out.println("Ce repertoire n'existe pas dans le dossier courant");
             return;
         }
         nav.setRepCourant(cible);
