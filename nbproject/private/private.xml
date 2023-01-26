@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/cli/CommandeLs.java</file>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/gestion/fichiers/GestionFichiers.java</file>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/cli/CommandeCD.java</file>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/metier/Repertoire.java</file>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/cli/Commande.java</file>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/cli/CommandeMkdir.java</file>
+            <file>file:/media/setodji/ad938c21-dd99-4ea6-86ee-39d7a9553371/setodji/NetBeansProjects/gestion-fichiers/src/cli/PasseurDeCommande.java</file>
+        </group>
+    </open-files>
+</project-private>
