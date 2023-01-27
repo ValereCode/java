@@ -15,20 +15,20 @@ public class CommandeLs extends Commande {
     }
 
     @Override
-    public void executer(Navigateur nav) { // Produit de la commande ls
+    public void executer(Navigateur nav) throws IllegalArgumentException{ // Produit de la commande ls
 
         if(arguments.length == 1) {
-            if (arguments[0].equals("-a")) {
-                nav.getRepCourant().clarifier();
+            if (arguments[0].equals("-a") || arguments[0].equals("--all")) {
+                nav.getRepCourant().printStructure();
                 return;
             } else {
-                System.out.println("L'argument n'est pas reconnu par ls");
+                System.out.println("L'argument n'est pas reconnu par ls\n");
                 return;
             }
             
         }
         else if (arguments.length > 1) {
-            System.out.println("La commande ls n'attend qu'un seul argument");
+            System.out.println("La commande ls n'attend qu'un seul argument\n");
             return;
         }
         nav.getRepCourant().afficher();

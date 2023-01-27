@@ -24,16 +24,16 @@ public class CommandeTouch extends Commande{
 
         Repertoire courant = nav.getRepCourant();
         if (arguments.length == 0) {
-            System.out.println("La commande touch attend au moins un argument");
+            System.out.println("La commande touch attend au moins un argument\n");
             return;
         }  
         if (arguments.length > 1) {
-            System.out.println("La commande touch n'attend qu'un seul argument");
+            System.out.println("La commande touch n'attend qu'un seul argument\n");
             return;
         } 
         for(Fichier fic: courant.getFichiers()){
             if(fic.getNom().equals(arguments[0]) && fic instanceof FichierSimple){
-                System.out.println("Ce fichier existe déja !!!");
+                System.out.println("Ce fichier existe déja !!!\n");
                 return;
             }
         }

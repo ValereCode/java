@@ -17,7 +17,7 @@ public class CommandeCd extends Commande{
     }
     
     @Override
-    public void executer(Navigateur nav) {
+    public void executer(Navigateur nav) throws IllegalArgumentException{
         if(arguments.length == 0) {
             nav.setRepCourant(Repertoire.getRoot());
             return;
@@ -26,12 +26,12 @@ public class CommandeCd extends Commande{
             return;
         }
         else if (arguments.length != 1) {
-            System.out.println("La commande 'cd' attend un seul argument");
+            System.out.println("La commande 'cd' attend un seul argument\n");
             return;
         }
         Repertoire cible = nav.getRepCourant().getSousRepertoire(arguments[0]);
         if (cible == null) {
-            System.out.println("Ce repertoire n'existe pas dans le dossier courant");
+            System.out.println("Ce repertoire n'existe pas dans le dossier courant\n");
             return;
         }
         nav.setRepCourant(cible);

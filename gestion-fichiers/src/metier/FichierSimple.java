@@ -60,6 +60,7 @@ public class FichierSimple extends Fichier {
         } catch (IOException e) {
             System.out.println("Erreur lors de la lecture du fichier : " + e.getMessage());
         }
+        return null;
     }
     
 }

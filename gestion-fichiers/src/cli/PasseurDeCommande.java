@@ -27,8 +27,16 @@ public class PasseurDeCommande {
                 new CommandeTouch(argument);
             case "rm" ->
                 new CommandeRm(argument);
-            case "cat" ->
-                new CommandeCat(argument);
+            case "lr" ->
+                new CommandeLr(argument);
+            case "mv" ->
+                new CommandeMv(argument);
+            case "q" ->
+                new CommandeQ(argument);
+            case "cd2" ->
+                new CommandeCd2(argument);
+            case "touch2" ->
+                new CommandeTouch2(argument);
             case "help" ->
                 new CommandeHelp(argument);
             default ->

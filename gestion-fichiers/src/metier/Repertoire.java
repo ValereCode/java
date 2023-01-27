@@ -55,7 +55,7 @@ public class Repertoire extends Fichier {
             if (f.getClass().getSimpleName().equals("Repertoire")) { // S'il sagit d'un repertoire
                 f.printStructure();
             }
-            System.out.println("******************************************************************");
+            System.out.println("\t******************************************************************");
         }
         System.out.println();
     }
